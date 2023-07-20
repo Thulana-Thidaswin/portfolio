@@ -1,0 +1,32 @@
+{% block html_head_container %}
+  {% include 'html-header.twig' %}
+    {% block head %}{% endblock %}
+  </head>
+{% endblock %}
+
+  <body class="{{ body_classes }}" data-template="base.twig">
+
+    <!-- Google Tag Manager (noscript) -->
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+    <!-- End Google Tag Manager (noscript) -->
+
+    {% include 'icon-sprite.twig' %}
+
+    <div class="body-content">
+      {% block nav %}
+        {% include 'nav.twig' %}
+      {% endblock %}
+
+      {% block content %}
+      {% endblock %}
+
+      {% block footer %}
+        <footer>
+          {% include 'footer.twig' %}
+        </footer>
+      {% endblock %}
+    </div>
+
+    {{ function('wp_footer') }}
+  </body>
+</html>

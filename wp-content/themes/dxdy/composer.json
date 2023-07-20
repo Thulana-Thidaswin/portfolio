@@ -1,0 +1,13 @@
+{
+    "name": "dxdy/site",
+    "type": "project",
+    "require": {
+    },
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "Chamath Ellawala",
+            "email": "chamath@dxdy.tech"
+        }
+    ]
+}
