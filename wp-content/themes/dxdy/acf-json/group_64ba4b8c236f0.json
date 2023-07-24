@@ -1,0 +1,137 @@
+{
+    "key": "group_64ba4b8c236f0",
+    "title": "Content : Home page",
+    "fields": [
+        {
+            "key": "field_64ba4bac4b993",
+            "label": "Homepage Flex",
+            "name": "homepage_flex",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_64ba4bc54b994": {
+                    "key": "layout_64ba4bc54b994",
+                    "name": "introduction",
+                    "label": "Introduction",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64ba4bd34b995",
+                            "label": "Intro clone",
+                            "name": "intro_clone",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64ba0fb9cad51"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64be11d32ad1d": {
+                    "key": "layout_64be11d32ad1d",
+                    "name": "designation",
+                    "label": "Designation",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64be11d92ad1e",
+                            "label": "Designation clone",
+                            "name": "designation_clone",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64be0f2c7078b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64be412049401": {
+                    "key": "layout_64be412049401",
+                    "name": "qualifications",
+                    "label": "Qualifications",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64be412849402",
+                            "label": "Quali clone",
+                            "name": "quali_clone",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64be40b48070c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-homepage.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1690190138
+}

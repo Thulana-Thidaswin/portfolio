@@ -1,0 +1,30 @@
+{% block content %}
+	<head>
+		<div class="header">
+			<div class="header__container">
+				<a href="tel:{{options.phone_number}}">
+					<div class="header__img-container">
+						<img src="{{options.phone_number_logo.url}}" alt="{{options.phone_number_logo.alt}}">
+					</div>
+				</a>
+
+				<a href="mailto:{{options.email}}">
+					<div class="header__img-container">
+						<img src="{{options.email_logo.url }}" alt="{{options.email_logo.alt}}">
+					</div>
+				</a>
+
+				{% for items in options.header_repeater %}
+					<a href={{items.link}}>
+						<div class="header__img-container">
+							<img src="{{items.logo.url }}" alt="{{items.logo.alt}}">
+						</div>
+					</a>
+
+				{% endfor %}
+			</div>
+
+		</div>
+	</head>
+{% endblock %}
+{{aud}}

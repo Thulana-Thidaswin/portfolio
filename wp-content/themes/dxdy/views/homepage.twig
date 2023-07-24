@@ -1,0 +1,6 @@
+{% extends "base.twig" %}
+{% block content %}
+    {% for component in homepage_flex %}
+        {% include 'components/' ~ component.acf_fc_layout ~ '.twig' %}
+    {% endfor %}
+{% endblock %}

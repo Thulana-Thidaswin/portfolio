@@ -10,6 +10,7 @@ html {
 
 body {
   overflow-x: hidden;
+  font-family: "Preahvihear" ;
 }
 
 section {
@@ -36,4 +37,8 @@ section {
 // fix for input line-height issues on Safari
 input::-webkit-input-placeholder {
   line-height: normal !important;
+}
+
+body{
+  background-color: #11071F;
 }
