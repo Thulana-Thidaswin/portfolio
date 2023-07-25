@@ -2,6 +2,11 @@
   max-width: 1165px;
   margin: auto;
   font-family: "Poppins", sans-serif;
+  margin-bottom: 50px;
+  @media (max-width: $xs-breakpoint) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   &-heading {
     font-size: 50px;
     margin-bottom: 20px;
@@ -28,6 +33,9 @@
       font-weight: 600;
       line-height: normal;
       letter-spacing: 0.32px;
+      @media (max-width: $xs-breakpoint) {
+        font-size: 13px;
+      }
     }
   }
   &-qualification {
@@ -38,17 +46,20 @@
       font-weight: 600;
       line-height: normal;
       letter-spacing: 0.68px;
+      @media (max-width: $xs-breakpoint) {
+        font-size: 20px;
+      }
     }
   }
   &-result {
     display: flex;
     align-items: center;
-    padding-left:30px;
-    padding-right:30px;
+    padding-left: 30px;
+    padding-right: 30px;
     max-width: 669px;
     height: 120px;
     width: 100%;
-    box-shadow: 10px 10px 10px #5c3595 ;
+    box-shadow: 10px 10px 10px #5c3595;
     border-radius: 35px;
     p {
       color: #ccd6f6;
@@ -60,7 +71,7 @@
     .qualification-result {
       flex-direction: row-reverse;
       margin-right: 25px;
-      box-shadow: -10px 10px 10px #5c3595 ;
+      box-shadow: -10px 10px 10px #5c3595;
     }
   }
 }

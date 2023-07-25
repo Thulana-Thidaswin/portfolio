@@ -26,18 +26,28 @@
     position: absolute;
     left: 145px;
     top: 10px;
+    @media (max-width: $xs-breakpoint) {
+      display: none;
+
+    }
   }
   &-portrait {
     display: flex;
-    flex-shrink: 0;
     border-radius: 36px;
     margin-top: 1%;
     gap: 40px;
+    @media (max-width: $xs-breakpoint) {
+      display: block;
+      padding-left:50px;
+    }
     &-img-container {
       width: 191px;
       height: 225px;
       box-shadow: 0 0 100px #763cac;
       border-radius: 35px;
+      @media (max-width: $xs-breakpoint) {
+        margin-bottom: 20px;
+      }
       img {
         width: 100%;
         height: 100%;
