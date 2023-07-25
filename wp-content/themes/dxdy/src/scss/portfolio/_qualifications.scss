@@ -1,0 +1,66 @@
+.qualification {
+  max-width: 1165px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  &-heading {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  &-flex-item {
+    display: flex;
+    padding-bottom: 25px;
+  }
+
+  &-item:nth-child(even) {
+    .qualification-flex-item {
+      flex-direction: row-reverse;
+    }
+  }
+  &-test {
+    max-width: 672px;
+    width: 100%;
+  }
+  &-institute {
+    p {
+      color: #9857d3 !important;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.32px;
+    }
+  }
+  &-qualification {
+    p {
+      color: #ccd6f6 !important;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.68px;
+    }
+  }
+  &-result {
+    display: flex;
+    align-items: center;
+    padding-left:30px;
+    padding-right:30px;
+    max-width: 669px;
+    height: 120px;
+    width: 100%;
+    box-shadow: 10px 10px 10px #5c3595 ;
+    border-radius: 35px;
+    p {
+      color: #ccd6f6;
+      font-family: Poppins;
+      font-size: 20px;
+    }
+  }
+  &-item:nth-child(even) {
+    .qualification-result {
+      flex-direction: row-reverse;
+      margin-right: 25px;
+      box-shadow: -10px 10px 10px #5c3595 ;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<div class="qualification">
+	<div class="qualification-heading">
+		<p>Qualifications
+		</p>
+	</div>
+	<div class="qualification-list">
+		{% for qualification in component.qualifications %}
+			<div class="qualification-item">
+				<div class="qualification-flex-item">
+					<div class="qualification-test">
+						<div class="qualification-institute">
+							<p>{{qualification.institute}}</p>
+						</div>
+						<div class="qualification-qualification">
+							<p>{{qualification.qualification}}</p>
+						</div>
+					</div>
+					<div class="qualification-result">
+						<p>{{qualification.result}}</p>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>

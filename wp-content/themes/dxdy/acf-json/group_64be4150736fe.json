@@ -1,11 +1,11 @@
 {
-    "key": "group_64be40b48070c",
-    "title": "Component : Qualifications",
+    "key": "group_64be4150736fe",
+    "title": "Component : Work Experience",
     "fields": [
         {
-            "key": "field_64be40c06a9c7",
-            "label": "Qualifications",
-            "name": "qualifications",
+            "key": "field_64be41abe9bc3",
+            "label": "Experience Repeater",
+            "name": "experience_repeater",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -22,9 +22,9 @@
             "button_label": "",
             "sub_fields": [
                 {
-                    "key": "field_64be40cf6a9c8",
-                    "label": "Institute",
-                    "name": "institute",
+                    "key": "field_64be41cae9bc4",
+                    "label": "Designation",
+                    "name": "designation",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -41,28 +41,9 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_64be40e16a9c9",
-                    "label": "Qualification",
-                    "name": "qualification",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_64be40eb6a9ca",
-                    "label": "Result",
-                    "name": "result",
+                    "key": "field_64be41d4e9bc5",
+                    "label": "Description text area",
+                    "name": "description_text_area",
                     "type": "textarea",
                     "instructions": "",
                     "required": 0,
@@ -99,5 +80,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1690195929
+    "modified": 1690190389
 }

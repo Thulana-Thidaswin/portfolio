@@ -108,6 +108,37 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_64be42407e87a": {
+                    "key": "layout_64be42407e87a",
+                    "name": "work_experience",
+                    "label": "Work Experience",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64be424c7e87b",
+                            "label": "exp clone",
+                            "name": "exp_clone",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64be4150736fe"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Row",
@@ -133,5 +164,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1690190138
+    "modified": 1690191598
 }
