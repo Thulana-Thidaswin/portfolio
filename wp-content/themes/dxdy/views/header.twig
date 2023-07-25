@@ -2,7 +2,7 @@
 	<head>
 		<div class="header">
 			<div class="header__container">
-				<a href="tel:{{options.phone_number}}">
+				<a href="tel:{{options.phone_number}}" >
 					<div class="header__img-container">
 						<img src="{{options.phone_number_logo.url}}" alt="{{options.phone_number_logo.alt}}">
 					</div>
@@ -15,7 +15,7 @@
 				</a>
 
 				{% for items in options.header_repeater %}
-					<a href={{items.link}}>
+					<a href={{items.link}}  target="_blank">
 						<div class="header__img-container">
 							<img src="{{items.logo.url }}" alt="{{items.logo.alt}}">
 						</div>
