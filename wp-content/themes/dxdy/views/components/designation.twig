@@ -1,0 +1,23 @@
+<div class="designation">
+	<div class="designation-container">
+		{% if component.vowel == true %}
+			<p>Im an
+		{% else %}
+			<p>Im a
+		{% endif %}
+				{{ component.designation}}
+			</p>
+	</div>
+	<div class="workplace">
+		<div class="workplace-container">
+			<p > Im currently working at </p>
+            <a href="{{component.company_url}}" target="_blank"> 
+                <div class="workplace-img-container">
+                    <img src="{{ component.company_logo.url}}" alt="{{ component.company_logo.alt }}"/>
+                </div>
+            </a>
+	</div>
+    <div class="description">
+        <p> {{component.description}}</p>
+    </div>
+</div>
