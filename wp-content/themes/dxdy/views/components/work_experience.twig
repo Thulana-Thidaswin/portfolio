@@ -1,0 +1,27 @@
+<div class="work">
+	<div class="work-heading">
+		<p>
+			Work Experience
+		</p>
+	</div>
+	<div class="work-item">
+		{% for experience in component.experience_repeater %}
+			<div class="work-flex-item">
+				<div class="work-experience-item">
+					<div class="work-img-container">
+						<img src="{{experience.designation_image.url}}" alt="{{experience.designation_image.alt}}"/>
+					</div>
+					<div  class="work-content" >
+						<div class="work-designation">
+							<p>{{experience.designation}}</p>
+						</div>
+						<div class="work-text-area">
+							<p>{{experience.description_text_area}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+
+</div>

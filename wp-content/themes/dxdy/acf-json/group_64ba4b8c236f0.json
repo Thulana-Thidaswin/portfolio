@@ -139,6 +139,37 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_64bf8fb8d64af": {
+                    "key": "layout_64bf8fb8d64af",
+                    "name": "stack_experience",
+                    "label": "Stack experience",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64bf8fc3d64b0",
+                            "label": "stack clone",
+                            "name": "stack_clone",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64bf8ed368be4"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Row",
@@ -164,5 +195,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1690191598
+    "modified": 1690275796
 }
