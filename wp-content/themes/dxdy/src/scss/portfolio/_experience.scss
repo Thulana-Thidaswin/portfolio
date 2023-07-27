@@ -4,8 +4,11 @@
      @media (max-width: $xs-breakpoint) {
      padding-left: 10px;
      padding-right: 10px;
-   
      }
+     @media (max-width: $md-breakpoint) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
      li{
         color:white;
         padding-left:40px;

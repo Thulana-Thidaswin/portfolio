@@ -6,7 +6,6 @@
   letter-spacing: 1px;
   @media (max-width: $xs-breakpoint) {
     font-size: 35px;
-
   }
   &-container {
     margin: auto;
@@ -14,8 +13,10 @@
   }
 }
 .workplace {
-  font-size: 21px;
-
+  font-size: 25px;
+  &-company-name {
+    font-size: 50px;
+  }
   &-container {
     align-items: center;
     justify-content: center;
@@ -37,14 +38,13 @@
   }
 }
 .description {
-    max-width: 1165px;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 50px;
-    @media (max-width: $xs-breakpoint) {
-      font-size: 15px;
-      padding-left: 10px;
-      padding-right: 10px;
-  
-    }
+  max-width: 1165px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  @media (max-width: $xs-breakpoint) {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
